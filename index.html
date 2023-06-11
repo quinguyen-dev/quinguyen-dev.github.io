@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito Sans:ital,wght@0,300;0,600"
+            rel="stylesheet"
+        />
+        <title>qui's portfolio</title>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    </head>
+    <body>
+        <div id="app-container">
+            <header>
+                <div id="nav-top-container">
+                    <a href="#about"><h1>qui nguyen</h1></a>
+                    <h2>[kwi win] <b>· developer</b></h2>
+                    <p>
+                        senior @ wpi with a passion in frontend and
+                        customer-driven development
+                    </p>
+                    <ul id="nav-links" class="no-list-bp">
+                        <li>
+                            <a class="selected" href="#about">about</a>
+                        </li>
+                        <li><a href="#experience">experience</a></li>
+                        <li><a href="#projects">projects</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <span
+                        ><a href="https://www.linkedin.com/in/quingocnguyen/"
+                            >linked in</a
+                        >
+                        ·
+                        <a href="https://github.com/quinguyen-dev"
+                            >github</a
+                        ></span
+                    >
+                    ·
+                    <a href="https://open.spotify.com/user/theasian_qui?si=39294abb29874d43"
+                        >spotify</a
+                    ></span
+                >
+                </div>
+            </header>
+            <main>
+                <section id="about">
+                    <h1>about</h1>
+                    <p>
+                        I began programming during my senior year of high school
+                        after the last developer on my robotics team graduated.
+                        At that time, I (as lead engineer) would have not
+                        thought at that covering one role would turn into a
+                        passion for another craft. Well.. here we are.
+                    </p>
+                    <p>
+                        I am currently working on building my software
+                        engineering skills through agile-based work. I have
+                        proudly developed for Brigham & Women's Hospital, as
+                        well as Polar Park and the Worcester Red Sox.
+                    </p>
+                    <p>
+                        Outside of programming, I am an avid music enjoyer,
+                        enjoy reading manga, and love playing games with my
+                        friends.
+                    </p>
+                </section>
+                <section id="experience">
+                    <h1>experience</h1>
+                    <div class="experience-card">
+                        <div>
+                            <h3>IT Lead Specialist · WPI</h3>
+                            <h4>SEPT 2021 — PRESENT</h4>
+                        </div>
+                        <p>
+                            Assist WPI students and faculty with technology
+                            issues through troubleshooting, gathering necessary
+                            data, and providing in-person and digital support.
+                        </p>
+                    </div>
+                    <div class="experience-card">
+                        <div>
+                            <h3>Software Engineering Coach · WPI</h3>
+                            <h4>JAN 2023 — MAY 2023</h4>
+                        </div>
+                        <p>
+                            Helped coach and manage fourteen ten-person teams to
+                            complete an extensive seven-week project for Brigham
+                            and Women’s Hospital. Guided students through the
+                            process using the agile-scrum methodology with
+                            one-week sprints.
+                        </p>
+                    </div>
+                    <div class="experience-card">
+                        <div>
+                            <h3>
+                                FE Mobile Development Intern ·
+                                <span>Worcester Red Sox</span>
+                            </h3>
+                            <h4>AUG 2022 — DEC 2022</h4>
+                        </div>
+                        <p>
+                            Worked with the MLB, MiLB, and the Worcester Red Sox
+                            to establish the groundwork for a new enterprise
+                            mobile app coming in the 2023 season. The app was
+                            developed with React Native and was conducted
+                            through one-week sprints.
+                        </p>
+                    </div>
+                    <div class="experience-card">
+                        <div>
+                            <h3>
+                                Mobile Development Intern · Achilles Travel
+                                Health
+                            </h3>
+                            <h4>JULY 2021 — MAY 2022</h4>
+                        </div>
+                        <p>
+                            Worked to develop an MVP for a cross-platform health
+                            application. The app was developed with React Native
+                            and communicated with numerous APIs, such as the
+                            CDC, JHU, and WHO.
+                        </p>
+                    </div>
+                </section>
+                <section id="projects">
+                    <h1>projects</h1>
+                    <h3>ongoing</h3>
+                    <div id="ongoing" class="project-display">
+                        <a class="project-card" data-project="portfolio"></a>
+                    </div>
+
+                    <h3>completed</h3>
+                    <div id="completed" class="project-display">
+                        <a class="project-card" data-project="polar-park"></a>
+                        <a class="project-card" data-project="intro"></a>
+                        <a class="project-card" data-project="brigham"></a>
+                        <a class="project-card" data-project="wpi"></a>
+                    </div>
+                </section>
+                <!-- <footer>contact me</footer> -->
+            </main>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
